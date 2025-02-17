@@ -221,3 +221,19 @@ p {
     
 }
 
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icon i {
+    font-size: 25px;
+    color: white; /* Set icons to white */
+    transition: color 0.3s;
+}
+
+.social-icon i:hover {
+    color: #0077b5; /* You can change this to any hover color of your choice (e.g., blue for Facebook) */
+}
